@@ -1,0 +1,40 @@
+{
+    "fields": [
+        {
+            "required": true, 
+            "name": "LinkRef"
+        }, 
+        {
+            "required": true, 
+            "name": "LinkDescription"
+        }, 
+        {
+            "required": true, 
+            "name": "Date"
+        }, 
+        {
+            "required": true, 
+            "name": "TimePeriod"
+        }, 
+        {
+            "required": true, 
+            "name": "AverageJT"
+        }, 
+        {
+            "required": true, 
+            "name": "AverageSpeed"
+        }, 
+        {
+            "required": true, 
+            "name": "DataQuality"
+        }, 
+        {
+            "required": true, 
+            "name": "LinkLength"
+        }, 
+        {
+            "required": true, 
+            "name": "Flow"
+        }
+    ]
+}

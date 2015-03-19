@@ -1,0 +1,215 @@
+{
+    "fields": [
+        {
+            "required": true, 
+            "name": "Atcocode", 
+            "maxLength": 12
+        }, 
+        {
+            "required": false, 
+            "name": "NaPTANCode", 
+            "maxLength": 12
+        }, 
+        {
+            "required": false, 
+            "name": "Platecode", 
+            "maxLength": 12
+        }, 
+        {
+            "required": false, 
+            "name": "Cleardowncode", 
+            "maxLength": 10
+        }, 
+        {
+            "required": true, 
+            "name": "CommonName", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "CommonNameLang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "ShortCommonName", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "ShortCommonNameLang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "Landmark", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "Landmarklang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "Street", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "StreetLang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "Crossing", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "CrossingLang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "Indicator", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "Indicatorlang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": true, 
+            "name": "Bearing", 
+            "maxLength": 2
+        }, 
+        {
+            "required": true, 
+            "name": "NptgLocalityCode", 
+            "maxLength": 8
+        }, 
+        {
+            "required": false, 
+            "name": "Localityname", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "ParentLocalityName", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "GrandParentLocalityName", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "Town", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "Townlang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "Suburb", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "SuburbLang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": true, 
+            "name": "LocalityCentre", 
+            "maxLength": 1
+        }, 
+        {
+            "required": false, 
+            "name": "GridType", 
+            "maxLength": 1
+        }, 
+        {
+            "required": true, 
+            "name": "Easting", 
+            "maxLength": 6
+        }, 
+        {
+            "required": true, 
+            "name": "Northing", 
+            "maxLength": 7
+        }, 
+        {
+            "required": false, 
+            "name": "Longitude"
+        }, 
+        {
+            "required": false, 
+            "name": "Latitude"
+        }, 
+        {
+            "required": true, 
+            "name": "StopType", 
+            "maxLength": 3
+        }, 
+        {
+            "required": false, 
+            "name": "BusStopType", 
+            "maxLength": 3
+        }, 
+        {
+            "required": false, 
+            "name": "TimingStatus", 
+            "maxLength": 3
+        }, 
+        {
+            "required": false, 
+            "name": "DefaultWaitTime"
+        }, 
+        {
+            "required": false, 
+            "name": "Notes"
+        }, 
+        {
+            "required": false, 
+            "name": "NotesLang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": true, 
+            "name": "AdministrativeAreaCode", 
+            "maxLength": 8
+        }, 
+        {
+            "required": true, 
+            "name": "CreationDateTime", 
+            "maxLength": 10
+        }, 
+        {
+            "required": false, 
+            "name": "ModificationDateTime", 
+            "maxLength": 10
+        }, 
+        {
+            "required": false, 
+            "name": "RevisionNumber", 
+            "maxLength": 5
+        }, 
+        {
+            "required": false, 
+            "name": "Modification ", 
+            "maxLength": 3
+        }, 
+        {
+            "required": false, 
+            "name": "Status", 
+            "maxLength": 3
+        }
+    ]
+}

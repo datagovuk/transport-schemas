@@ -1,0 +1,115 @@
+{
+    "fields": [
+        {
+            "required": true, 
+            "name": "VehicleMode"
+        }, 
+        {
+            "required": true, 
+            "name": "OperatorCode"
+        }, 
+        {
+            "required": false, 
+            "name": "OperatorName"
+        }, 
+        {
+            "required": true, 
+            "name": "ServiceNumber"
+        }, 
+        {
+            "required": true, 
+            "name": "ServiceDescription"
+        }, 
+        {
+            "required": false, 
+            "name": "RegistrationNumber"
+        }, 
+        {
+            "required": true, 
+            "name": "WheelchairAccess"
+        }, 
+        {
+            "required": false, 
+            "name": "HighFloor", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "AssistanceService"
+        }, 
+        {
+            "required": false, 
+            "name": "MobilityScooter"
+        }, 
+        {
+            "required": true, 
+            "name": "WEFDate", 
+            "maxLength": 6
+        }, 
+        {
+            "required": true, 
+            "name": "WEUDate", 
+            "maxLength": 6
+        }, 
+        {
+            "required": false, 
+            "name": "NETISReference"
+        }, 
+        {
+            "required": false, 
+            "name": "MRNDReference"
+        }, 
+        {
+            "required": false, 
+            "name": "SEAMReference"
+        }, 
+        {
+            "required": false, 
+            "name": "NCSDReference"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-EA"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-EM"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-L"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-NE"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-NW"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-S"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-SE"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-SW"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-W"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-WM"
+        }, 
+        {
+            "required": false, 
+            "name": "TNDS-Y"
+        }
+    ]
+}

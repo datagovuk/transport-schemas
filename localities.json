@@ -1,0 +1,99 @@
+{
+    "fields": [
+        {
+            "required": true, 
+            "name": "NptgLocalityCode", 
+            "maxLength": 8
+        }, 
+        {
+            "required": true, 
+            "name": "LocalityName", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "LocalityNameLang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "ShortName", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "ShortNameLang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "QualifierName", 
+            "maxLength": 48
+        }, 
+        {
+            "required": false, 
+            "name": "QualifierNameLang", 
+            "maxLength": 2
+        }, 
+        {
+            "required": false, 
+            "name": "QualifierLocalityRef", 
+            "maxLength": 8
+        }, 
+        {
+            "required": false, 
+            "name": "QualifierDistrictRef", 
+            "maxLength": 8
+        }, 
+        {
+            "required": true, 
+            "name": "AdministrativeAreaCode", 
+            "maxLength": 8
+        }, 
+        {
+            "required": true, 
+            "name": "NptgDistrictCode", 
+            "maxLength": 8
+        }, 
+        {
+            "required": true, 
+            "name": "SourceLocalityType", 
+            "maxLength": 3
+        }, 
+        {
+            "required": false, 
+            "name": "GridType", 
+            "maxLength": 1
+        }, 
+        {
+            "required": true, 
+            "name": "Easting", 
+            "maxLength": 6
+        }, 
+        {
+            "required": true, 
+            "name": "Northing", 
+            "maxLength": 7
+        }, 
+        {
+            "required": true, 
+            "name": "CreationDateTime", 
+            "maxLength": 25
+        }, 
+        {
+            "required": false, 
+            "name": "ModificationDateTime", 
+            "maxLength": 25
+        }, 
+        {
+            "required": false, 
+            "name": "RevisionNumber", 
+            "maxLength": 5
+        }, 
+        {
+            "required": false, 
+            "name": "Modification ", 
+            "maxLength": 3
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "fields": [
+        {
+            "required": true, 
+            "name": "AtcoCode", 
+            "maxLength": 12
+        }, 
+        {
+            "required": true, 
+            "name": "StopCommonName"
+        }, 
+        {
+            "required": true, 
+            "name": "StopType", 
+            "maxLength": 3
+        }, 
+        {
+            "required": false, 
+            "name": "EntranceWheelchairAccess"
+        }, 
+        {
+            "required": true, 
+            "name": "SuitableforHighFloor"
+        }, 
+        {
+            "required": true, 
+            "name": "SuitableforLowFloor"
+        }
+    ]
+}

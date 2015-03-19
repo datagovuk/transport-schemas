@@ -1,0 +1,71 @@
+{
+    "fields": [
+        {
+            "required": true, 
+            "name": "StopNaPTAN", 
+            "maxLength": 12
+        }, 
+        {
+            "required": true, 
+            "name": "StopName"
+        }, 
+        {
+            "required": false, 
+            "name": "StopAreaNaPTAN"
+        }, 
+        {
+            "required": false, 
+            "name": "StopOperator"
+        }, 
+        {
+            "required": true, 
+            "name": "WheelchairAccess", 
+            "maxLength": 5
+        }, 
+        {
+            "required": true, 
+            "name": "AssistanceService", 
+            "maxLength": 5
+        }, 
+        {
+            "required": true, 
+            "name": "WEFDate", 
+            "maxLength": 6
+        }, 
+        {
+            "required": true, 
+            "name": "WEUDate", 
+            "maxLength": 6
+        }, 
+        {
+            "required": true, 
+            "name": "MOFRStartTime", 
+            "maxLength": 5
+        }, 
+        {
+            "required": true, 
+            "name": "MOFREndTime", 
+            "maxLength": 5
+        }, 
+        {
+            "required": true, 
+            "name": "SatStartTime", 
+            "maxLength": 5
+        }, 
+        {
+            "required": true, 
+            "name": "SatEndTime", 
+            "maxLength": 5
+        }, 
+        {
+            "required": true, 
+            "name": "SunStartTime", 
+            "maxLength": 5
+        }, 
+        {
+            "required": true, 
+            "name": "SunEndTime", 
+            "maxLength": 5
+        }
+    ]
+}
